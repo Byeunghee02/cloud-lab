@@ -7,7 +7,7 @@ pipeline {
 
     stage("Checkout") {
 
-      steps { git url: "https://github.com/{id}/cloud-lab.git", branch: "main" }
+      steps { git url: "https://github.com/Byeunghee02/cloud-lab.git", branch: "main" }
 
     }
 
